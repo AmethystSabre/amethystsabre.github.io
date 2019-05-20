@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="https://amethystsabre.github.io/winsomeplay/ServerPackv2.xsl" type="text/xsl" ?>
 
-<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com ServerPackv2.xsd">
 
 	<Server id="wspmodpack" name="WinsomePlay" newsUrl="WsPModpack.xml" version="1.11.2" mainClass="net.minecraft.launchwrapper.Launch" revision="1" serverAddress="winsomeplay.nitrous.it" autoConnect="false" iconUrl="New%20Logo.png">
 
