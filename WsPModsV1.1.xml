@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ServerPackv2.xsl" type="text/xsl" ?>
+
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+
+	<Server id="wspmpv1.1" name="WinsomePlay V1.1" newsUrl="http://winsomeplay.nn.pe/modpack/WsPModsV1.1.xml" version="1.11.2" mainClass="net.minecraft.launchwrapper.Launch" revision="1.1" autoConnect="true" iconUrl="http://winsomeplay.nn.pe/modpack/New%20Logo.png">
+	
+		<!--Dependencies-->
+		<Module name="additionalresources-1.9.4-0.2.0.28+47cd0bd_signed" id="additionalresources" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/additional-resources/files/2447369/download</URL>
+			<Size>9563</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c11a49bc13a150673e486e6757907136</MD5>
+			<meta>
+				<credits></credits>
+				<description>Minecraft mod to add loose resources to the game without needing the user to install a texture pack</description>
+				<version>0.2.0.28</version>
+				<url></url>
+				<authors>Portablejim</authors>
+			</meta>
+		</Module>
+		
+		<Module name="CTM" id="ctm" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/ctm/files/2447703/download</URL>
+			<Size>139730</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>505156dd99966d9b3b58de30c45100e0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
+				<version>MC1.11.2-0.2.0.8</version>
+				<url>https://minecraft.curseforge.com/projects/ctm</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+		</Module>
+		
+		<!--Required-->
+		<Module name="Botania" id="Botania" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/botania/files/2451047/download</URL>
+			<Size>13849347</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2b05c3e673b5ea6dd410e1e3c2c37629</MD5>
+			<Meta>
+				<credits>Azanor, Flaxbeard, Futureazoo, Rorax, Lorc, Adubbz, WTFG33ks, Auric245524, MegaManki, Kain Vinosec, Kihira, mDiyo, Mikeemoo, ChickenBones, PowerCrystals, cpw</credits>
+				<description>Botania is a mod that adds nature magic to Minecraft. This time with a fancy number in front.</description>
+				<version>r1.9-345</version>
+				<url>http://www.botaniamod.net</url>
+				<authors>Vazkii, williewillus, wiiv, dylan4ever</authors>
+			</Meta>
+		</Module>
+		
+		<Module name="Chisel" id="chisel" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/chisel/files/2451405/download</URL>
+			<Size>17302333</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>222845af26d19446d5aca1c8c31f9e31</MD5>
+			<Meta>
+				<credits>AUTOMATIC_MAIDEN for the original mod,
+asie for porting to 1.7.2,
+and Pokenfenn/Cricket for continuing it in 1.7.
+This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
+				<version>MC1.11.2-0.0.13.22</version>
+				<url>https://minecraft.curseforge.com/projects/chisel</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+		</Module>
+		
+		<Module name="Gravestone Mod" id="gravestone" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/gravestone-mod/files/2449759/download</URL>
+			<Size>78067</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b3bd48d24ad1e88c80c5a42e33cfcbdd</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Gravestone Mod</description>
+				<version>1.7.4.1</version>
+				<url>http://maxhenkel.de</url>
+				<authors>Max Henkel</authors>
+			</Meta>
+		</Module>
+		
+		<Module name="Spartan Shields" id="spartanshields" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/spartan-shields/files/2403513/download</URL>
+			<Size>155132</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e3585bae8908fcca7b11d89635b1578c</MD5>
+			<Meta>
+				<credits>Evinsta for the name, Ryo_Pasternak for Russian translation.</credits>
+				<description>Spartan Shields adds a variety of new shields to Minecraft.</description>
+				<version>1.3a</version>
+				<url>https://minecraft.curseforge.com/projects/spartan-shields</url>
+				<authors>ObliviousSpartan</authors>
+			</Meta>
+		</Module>
+		
+		<Module name="The Lost Cities" id="lostcities" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/the-lost-cities/files/2452442/download</URL>
+			<Size>252926</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0acaa25ce059d776d50b3148aad7a67c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The Lost Cities World Generator</description>
+				<version>1.1x-0.0.18beta</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+		
+		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/tinkers-construct/files/2451489/download</URL>
+			<Size>3618576</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ac3f4671be976fe33995bdad904ce7a7</MD5>
+			<Meta>
+				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
+				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
+				<version>1.11.2-2.7.1.34</version>
+				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
+				<authors>boni, KnightMiner</authors>
+			</Meta>
+		</Module>
+		
+		<!--Optional-->
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">https://minecraft.curseforge.com/projects/just-enough-items-jei/files/2451403/download</URL>
+			<Size>540328</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>d75a01878f80483deff02b6925a52099</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.5.0.293</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>

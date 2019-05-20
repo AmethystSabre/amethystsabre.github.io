@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="ServerPackv2.xsl" type="text/xsl" ?>
+
+<ServerPack version="3.3" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+
+	<Server id="wspmodpack" name="WinsomePlay" newsUrl="WsPModpack.xml" version="1.11.2" mainClass="net.minecraft.launchwrapper.Launch" revision="1" serverAddress="winsomeplay.nitrous.it" autoConnect="false" iconUrl="New%20Logo.png">
+
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.11.2&amp;forge=13.20.1.2414">forge</Import>
+		
+		<Import url="WsPModsV1.xml">WinsomePlay Modpack</Import>
+		
+		<Import url="WsPModsV1.1.xml">Update 1.1</Import>
+	</Server>
+</ServerPack>
